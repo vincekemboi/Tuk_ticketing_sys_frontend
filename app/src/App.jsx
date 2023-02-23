@@ -1,12 +1,14 @@
 import React from 'react'
 import Login from './login'
-import Signup from './signup'
+import Tickets from './tickets'
+import Reg from './Reg'
 
 export default function App() {
   return (
     <>
-    {/* <div><Signup /></div> */}
-    <div><Login /></div>
+  {/* <div><Login /></div> */}
+    {/* <div><Tickets/></div> */}
+    <div><Reg/></div>
     </>
   )
 }
